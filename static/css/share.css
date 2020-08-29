@@ -49,10 +49,8 @@
 .share-block-input-wrapper {
   position: relative;
   margin-top: 30px;
-  @media screen and (max-width: 950px) {
-    margin-right: 22px;
-  }
 }
+
 .share-block-input {
   box-sizing: border-box;
   -webkit-appearance: none;
@@ -110,4 +108,9 @@
 }
 .share-block-success--show {
   display: block;
+}
+@media screen and (max-width: 950px) {
+  .share-block-input-wrapper {
+    margin-right: 22px;
+  }
 }
