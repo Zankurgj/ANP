@@ -49,6 +49,9 @@
 .share-block-input-wrapper {
   position: relative;
   margin-top: 30px;
+  @media screen and (max-width: 950px) {
+    margin-right: 22px;
+  }
 }
 .share-block-input {
   box-sizing: border-box;
